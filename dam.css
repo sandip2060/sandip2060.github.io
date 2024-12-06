@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap');
+
+.container p{
+line-height: 1.15;
+letter-spacing: 0.8;
+font-size: 20px;
+font: italic;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 4px, 4px, 6px;
+    text-decoration: underline;
+
+}
+
+.image {
+    height: auto;
+    width: 100%;
+    box-shadow: 4px, 4px, 6px;
+}

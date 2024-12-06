@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box1 {
+    background: #1abc9c;
+    color: #fff;
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.box1 h1 {
+    margin: 0 0 20px;
+    font-size: 2em;
+}
+
+.box1 p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.box2 {
+    flex: 1;
+    padding: 40px;
+}
+
+.box2 h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.input1 {
+    margin-bottom: 20px;
+}
+
+.input1 label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input1 input, 
+.input1 textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input1 textarea {
+    resize: none;
+    height: 100px;
+}
+
+.input1 input:focus, 
+.input1 textarea:focus {
+    border-color: #1abc9c;
+    outline: none;
+}
+
+.input1 .required {
+    color: red;
+}
+
+.btn {
+    background: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #16a085;
+}
